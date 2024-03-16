@@ -543,6 +543,10 @@ spon {
     height: 80vh;
     overflow: hidden;
   }
+  nav {
+    align-items: start;
+    margin: 1px0;
+  }
   nav > img {
     width: 60px; /* Adjust image width for smaller screens */
     height: 60px; /* Adjust image height for smaller screens */
@@ -565,7 +569,7 @@ spon {
     margin: 0;
   }
   .container img {
-    height: 120px;
+    height: auto;
     width: 300px;
     padding: 30px 0px;
   }
@@ -615,7 +619,7 @@ spon {
     font-size: 15px;
     padding: 15px 0px;
     margin-left: 0%;
-    text-align: justify;
+    text-align: left;
   }
   .rcon ul {
     margin-top: 0px;
@@ -841,6 +845,7 @@ spon {
   font-family: "poppins";
   font-weight: 600;
   font-size: 15px;
+  overflow: hidden;
 }
 
 .footer address {
