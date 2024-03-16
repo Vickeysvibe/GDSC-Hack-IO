@@ -4,11 +4,15 @@
   --primary-color: #63b7e6;
 }
 
+html {
+  zoom: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.2s;
   color: #272727;
 }
 p {
@@ -181,6 +185,10 @@ nav > img {
   height: auto;
   width: 100vw;
   margin-top: 100px;
+  background-image: url("images/t.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 time {
   font-size: 30px;
@@ -241,6 +249,10 @@ time {
 }
 .sec5 {
   margin-top: -200px;
+  background-image: url("images/ps.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .sech {
   font-size: 100px;
@@ -302,7 +314,12 @@ time {
 .bod:hover {
   border: none;
 }
-
+.sec6 {
+  background-image: url("images/p.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .price {
   display: flex;
   justify-content: center;
@@ -460,6 +477,30 @@ spon {
 }
 .cc {
   margin-top: 35px;
+}
+
+.sponsers {
+  padding: 70px 0px;
+  height: 50vh;
+  width: 100%;
+}
+.sponsers h2 {
+  padding: 50px 0px;
+  width: 100%;
+  text-align: center;
+  font-family: "Lilita One";
+  font-size: 80px;
+  color: #59b438;
+}
+.ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.sponsers .ul .li {
+  height: 300px;
+  width: 20%;
 }
 
 @media screen and (max-width: 1570px) {
@@ -634,6 +675,17 @@ spon {
   }
   spon {
     font-size: 10px;
+  }
+  .sponsers {
+    width: 100%;
+    height: 20vh;
+  }
+  .sponsers h2 {
+    font-size: 30px;
+  }
+
+  .ul .li {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 1024px) {
