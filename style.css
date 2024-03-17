@@ -171,7 +171,7 @@ nav > img {
 .rule h1 {
   font-family: "Lilita One", sans-serif;
   text-align: center;
-  color: #59b438;
+  color: #379415;
   width: 100%;
   font-weight: 900;
   font-size: 80px;
@@ -325,7 +325,7 @@ time {
   align-content: center;
   font-family: "Lilita One", sans-serif;
   padding-bottom: 30px;
-  color: rgb(255, 14, 14);
+  color: rgb(255, 99, 99);
 }
 
 .line {
@@ -726,13 +726,12 @@ spon {
   }
   .sec {
     height: auto;
-    background-image: none;
+    background-image: url("images/about1-m.png");
   }
   .sec2 {
     margin-top: -10px;
   }
   .sec3 {
-    background-image: none;
     margin-top: 50px;
     height: 1200px;
     align-items: start;
