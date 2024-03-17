@@ -375,7 +375,7 @@ time {
 
 .price .containerr .card {
   position: relative;
-  min-width: 500px;
+  min-width: 400px;
   height: 650px;
   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
     inset -5px -5px 15px rgba(177, 171, 171, 0.1),
@@ -392,6 +392,9 @@ time {
 }
 .card:nth-child(3) {
   background-color: #4891ff;
+}
+.card:nth-child(4) {
+  background-color: #fabc05;
 }
 .price .containerr .card .box {
   position: absolute;
@@ -454,6 +457,15 @@ time {
   font-size: 10rem;
   color: rgba(0, 119, 255, 0.1);
 }
+.price .containerr .card .box .content .box4 {
+  font-family: "Lilita One";
+  position: absolute;
+  top: -10px;
+  overflow: hidden;
+  right: 30px;
+  font-size: 10rem;
+  color: rgba(152, 163, 0, 0.1);
+}
 
 .price .containerr .card .box .content .first {
   font-size: 35px;
@@ -476,6 +488,15 @@ time {
   font-size: 35px;
   font-family: "Lilita One";
   color: #0d64ea;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 0;
+}
+.price .containerr .card .box .content .frt {
+  font-size: 35px;
+  margin-top: 140px;
+  font-family: "Lilita One";
+  color: #fabc05;
   z-index: 1;
   transition: 0.5s;
   margin-bottom: 0;
@@ -837,6 +858,9 @@ spon {
     max-height: 55vh;
   }
   .card:nth-child(2) {
+    min-height: 60vh;
+  }
+  .card:nth-child(4) {
     min-height: 60vh;
   }
   .price .containerr .card .box .content .box1,
