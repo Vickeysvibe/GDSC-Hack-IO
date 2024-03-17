@@ -89,6 +89,18 @@ nav > img {
   width: 1000px;
 }
 
+.buttt {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+}
+#rsvp button {
+  background-color: #fcf6f0;
+  color: #0d64ea;
+  border: 4px solid #2b7cf6;
+}
 .container p {
   font-size: 20px;
 }
@@ -112,6 +124,9 @@ nav > img {
   background-size: cover;
   background-position: top;
   margin-top: -50px;
+}
+#regbut {
+  cursor: not-allowed;
 }
 .sec2 {
   height: auto;
@@ -149,7 +164,7 @@ nav > img {
 .sec3 .rule {
   margin-right: -20%;
   min-width: 500px;
-  width: 70%;
+  width: 80%;
   height: auto;
   overflow: hidden;
 }
@@ -165,7 +180,7 @@ nav > img {
 .rcon {
   font-family: "Poppins", sans-serif;
   width: 100%;
-  height: 89.5%;
+  height: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -195,7 +210,7 @@ nav > img {
   overflow: hidden;
   padding: 20px;
   width: 40%;
-  height: 100%;
+  height: auto;
   font-size: 30px;
 }
 .sec4 {
@@ -310,7 +325,7 @@ time {
   align-content: center;
   font-family: "Lilita One", sans-serif;
   padding-bottom: 30px;
-  color: rgb(255, 57, 57);
+  color: rgb(255, 14, 14);
 }
 
 .line {
@@ -502,7 +517,7 @@ spon {
 .sponsers {
   padding: 70px 0px;
   margin-bottom: 100px;
-  height: 50vh;
+  height: auto;
   width: 100%;
   overflow: hidden;
   background-image: url("images/spo.png");
@@ -525,7 +540,7 @@ spon {
   width: 100%;
 }
 .sponsers .ul .li {
-  height: 300px;
+  height: auto;
   width: 20%;
 }
 
@@ -552,6 +567,7 @@ spon {
 .footer__addr {
   margin-right: 1.25em;
   margin-bottom: 2em;
+  max-width: 500px;
 }
 
 .footer__logo {
@@ -602,10 +618,6 @@ spon {
   line-height: 2em;
 }
 
-.footer a {
-  text-decoration: none;
-}
-
 .footer__nav {
   display: flex;
   flex-flow: row wrap;
@@ -616,7 +628,7 @@ spon {
   margin-right: 1.25em;
 }
 
-.nav__ul a {
+.nav__ul li {
   color: #999;
 }
 
@@ -634,7 +646,10 @@ spon {
   font-weight: 400;
   font-size: 15px;
 }
-
+.axi span a {
+  text-decoration: none;
+  color: #000;
+}
 .heart {
   color: #2f2f2f;
 }
@@ -710,24 +725,29 @@ spon {
     margin: 30px 0px;
   }
   .sec {
-    background-image: url("images/about1-m.png");
+    height: auto;
+    background-image: none;
   }
   .sec2 {
-    margin-top: -100px;
+    margin-top: -10px;
   }
   .sec3 {
     background-image: none;
-    margin-top: 80px;
+    margin-top: 50px;
+    height: 1200px;
+    align-items: start;
   }
   .sec2 h1 {
+    padding: 50px;
     font-size: 40px;
     text-align: center;
+    margin: 0;
   }
   .sec2 .pcon p {
     text-align: justify;
     margin-top: 0px;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    margin-left: 0%;
     font-size: 15px;
   }
   .sec3 .rule {
@@ -770,7 +790,7 @@ spon {
     font-size: 10px;
   }
   .sec5 {
-    margin-top: -220%;
+    margin-top: -70%;
     background-image: none;
     background-image: url("images/pps.png");
   }
@@ -852,14 +872,20 @@ spon {
   .sponsers {
     width: 100%;
     padding: 0;
-    height: 30vh;
+    height: auto;
+    background-image: url("images/spo1.png");
   }
   .sponsers h2 {
     font-size: 40px;
   }
-
+  .ul {
+    display: block;
+    align-items: center;
+  }
   .ul .li {
-    width: 100%;
+    margin: 10px;
+    min-width: 50%;
+    margin-left: 25%;
   }
   .footer__addr {
   }
@@ -876,6 +902,13 @@ spon {
   }
   .axi span {
     font-size: 10px;
+  }
+  .buttt {
+    display: block;
+    margin-top: 30px;
+  }
+  .buttt button {
+    margin: 10px 0px;
   }
 }
 @media only screen and (max-width: 1024px) {
