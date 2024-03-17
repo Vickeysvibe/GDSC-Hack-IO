@@ -128,9 +128,7 @@ nav > img {
   background-position: top;
   margin-top: -50px;
 }
-#regbut {
-  cursor: not-allowed;
-}
+
 .sec2 {
   height: auto;
   width: 100vw;
@@ -913,8 +911,7 @@ spon {
     min-width: 50%;
     margin-left: 25%;
   }
-  .footer__addr {
-  }
+
   .footer__nav {
     margin-top: -40px;
   }
