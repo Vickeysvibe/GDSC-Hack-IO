@@ -337,10 +337,14 @@ time {
 }
 .yt {
   margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .yt iframe {
   width: 1300px;
-  height: 650px;
+  height: 700px;
 }
 
 .bod {
@@ -376,7 +380,7 @@ time {
 
 .price .containerr .card {
   position: relative;
-  min-width: 400px;
+  min-width: 500px;
   height: 650px;
   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
     inset -5px -5px 15px rgba(177, 171, 171, 0.1),
@@ -694,13 +698,6 @@ spon {
   }
 }
 
-@media screen and (max-width: 1570px) {
-  .yt iframe {
-    width: 1000px;
-    height: 500px;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .sec1 {
     background-image: url("images/home\ 2.png");
@@ -933,8 +930,9 @@ spon {
   .buttt button {
     margin: 10px 0px;
   }
-}
-@media only screen and (max-width: 1024px) {
+  .yt iframe {
+    width: 0px;
+  }
 }
 
 @media screen and (max-width: 1055px) {
@@ -961,14 +959,9 @@ spon {
     font-size: 15px;
     align-content: center;
   }
-
   .yt iframe {
-    width: 200px;
-    height: 100px;
-  }
-  .yt {
-    width: 200px;
-    height: 100px;
+    width: 100vw;
+    height: 50vh;
   }
   .fir p {
     font-size: 30px;
