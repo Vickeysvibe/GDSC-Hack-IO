@@ -932,6 +932,7 @@ spon {
   }
   .yt iframe {
     width: 0px;
+    max-height: 50vw;
   }
 }
 
