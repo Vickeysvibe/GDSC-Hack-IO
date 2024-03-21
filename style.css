@@ -912,11 +912,10 @@ spon {
     min-width: 50%;
     margin-left: 25%;
   }
-  .li:nth-child(4) img {
-    max-height: 40vw;
-    width: auto;
+  .tl {
+    max-width: 80%;
+    margin-left: 10%;
   }
-
   .footer__nav {
     margin-top: -40px;
   }
